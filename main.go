@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	variables.MuestroEnteros()
+	//variables.MuestroEnteros()
+	variables.RestoVariables()
 }
