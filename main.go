@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/aaramirez9/godesde0/ejercicios"
-)
+import "github.com/aaramirez9/godesde0/files"
 
 func main() {
 	//variables.MuestroEnteros()
@@ -37,6 +35,9 @@ func main() {
 	//teclado.IngresoNumeros()
 
 	//iteraciones.Iterar()
-	ejercicios.TablaMultiplica()
+	//fmt.Println(ejercicios.TablaMultiplica())
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeoArchivo()
 
 }
