@@ -1,6 +1,8 @@
 package main
 
-import "github.com/aaramirez9/godesde0/files"
+import (
+	"github.com/aaramirez9/godesde0/ejercicios/funciones"
+)
 
 func main() {
 	//variables.MuestroEnteros()
@@ -38,6 +40,9 @@ func main() {
 	//fmt.Println(ejercicios.TablaMultiplica())
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	funciones.Exponencia(2)
 
 }
