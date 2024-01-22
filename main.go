@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/aaramirez9/godesde0/ejercicios/funciones"
+	"github.com/aaramirez9/godesde0/ejercicios/arreglos_slices"
 )
 
 func main() {
@@ -43,6 +43,10 @@ func main() {
 	//files.LeoArchivo()
 	//funciones.Calculos()
 	//funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglo()
+	//arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
 
 }
