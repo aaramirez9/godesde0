@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/aaramirez9/godesde0/ejer_interfaces"
-	"github.com/aaramirez9/godesde0/modelos"
+	"github.com/aaramirez9/godesde0/defer_panic"
 )
 
 func main() {
@@ -51,9 +50,11 @@ func main() {
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
-	Pedro := new(modelos.Hombre)
-	e.HumanosRespirando(Pedro)
+	//Pedro := new(modelos.Hombre)
+	//e.HumanosRespirando(Pedro)
 
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	//Maria := new(modelos.Mujer)
+	//e.HumanosRespirando(Maria)
+	//defer_panic.VemosDefer()
+	defer_panic.EjemploPanic()
 }
