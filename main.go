@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/aaramirez9/godesde0/defer_panic"
+	"fmt"
+
+	"github.com/aaramirez9/godesde0/goroutines"
 )
 
 func main() {
@@ -56,5 +58,11 @@ func main() {
 	//Maria := new(modelos.Mujer)
 	//e.HumanosRespirando(Maria)
 	//defer_panic.VemosDefer()
-	defer_panic.EjemploPanic()
+	//defer_panic.EjemploPanic()
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Alexandra A", canal1)
+
+	fmt.Println("Estoy aquí")
+	<-canal1
+
 }
